@@ -1,0 +1,84 @@
+/* full page black background and yellow border */
+body {
+    font-family: Arial;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    border: 6px solid #FFC300; 
+    height: 100vh;
+}
+
+/* main box in middle */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #0d0d0d;
+    padding: 20px;
+}
+
+/* heading */
+h1 {
+    text-align: center;
+    color: #FFC300;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: #bbbbbb;
+}
+
+/* cards row */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* each card box */
+.card {
+    background-color: #111111;
+    border: 1px solid #333333;
+    padding: 10px;
+    width: 30%;
+    min-width: 180px;
+    text-align: center;
+}
+
+.card h3 {
+    color: #FFC300;
+    margin-top: 0;
+}
+
+/* button */
+#loadBtn {
+    background-color: #FFC300;
+    color: black;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+/* table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #1a1a1a;
+    color: #FFC300;
+    border: 1px solid #333333;
+    padding: 8px;
+}
+
+td {
+    background-color: #0d0d0d;
+    border: 1px solid #333333;
+    padding: 8px;
+    text-align: center;
+}
