@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Sleep-Tracker-app/static/css/main.b96b39ef.css",
+    "main.js": "/Sleep-Tracker-app/static/js/main.ec186779.js",
+    "static/js/453.ce6b9560.chunk.js": "/Sleep-Tracker-app/static/js/453.ce6b9560.chunk.js",
+    "index.html": "/Sleep-Tracker-app/index.html",
+    "main.b96b39ef.css.map": "/Sleep-Tracker-app/static/css/main.b96b39ef.css.map",
+    "main.ec186779.js.map": "/Sleep-Tracker-app/static/js/main.ec186779.js.map",
+    "453.ce6b9560.chunk.js.map": "/Sleep-Tracker-app/static/js/453.ce6b9560.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b96b39ef.css",
+    "static/js/main.ec186779.js"
+  ]
+}
