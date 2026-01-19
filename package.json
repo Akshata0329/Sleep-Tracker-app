@@ -1,7 +1,5 @@
 {
   "name": "sleep-dashboard",
-  
-
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,11 +13,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "client": "set PORT=3001 && react-scripts start",
+    "server": "npm start --prefix server",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -42,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "concurrently": "^9.2.1",
     "gh-pages": "^6.3.0"
   }
 }
